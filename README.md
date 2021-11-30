@@ -3,8 +3,8 @@
 O plano da disciplina está disponível [aqui](./media/bd-2021-2-bec-plano.pdf).<br>
 Recomendações sobre direitos autorais [aqui](./media/recomendacao-prograd.pdf).<br>
 Os momentos síncronos ocorrerão na sala [https://meet.google.com/pyd-tbae-ino](https://meet.google.com/pyd-tbae-ino) :
-- Segunda-feira, 08h00-08h50;
-- Sexta-feira, 08h00-08h50.
+- Terça-feira, 08h50-09h40;
+- Quinta-feira, 08h50-09h40.
 
 ### Tópicos com atividades ativas
 
