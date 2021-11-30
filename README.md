@@ -8,7 +8,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/nxf-aobp-pwz]
 
 ### Tópicos com atividades ativas
 
-- [Tópico 01](./topicos/topico-01.md) (Data limite: xx/xx/xxxx 23:59:59)<br>
+- [Tópico 01](./topicos/topico-01.md) (Data limite: 14/12/2021 23:59:59)<br>
 - [Todos os tópicos](topicos/topicos.md)<br>
 - [Análise dos tópicos](media/bd-2021-1-bcc-resumo-analise.pdf)
 
