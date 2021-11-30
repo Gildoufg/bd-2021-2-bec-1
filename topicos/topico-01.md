@@ -13,7 +13,7 @@ Esclareça suas dúvidas.<br>
    - o título da _issue_ deve ser "Tópico 01";
    - o conteúdo (corpo) da _issue_ deve possuir:
      - Meu registro acadêmico: coloque aqui o seu registro acadêmico (ou seja, número de matrícula).
-     - Minha conta no Github: coloque aqui a URL do seu repositório recém-criado.
+     - Meu repositório no Github: coloque aqui a URL do seu repositório recém-criado.
    
 ### Artefatos
 
