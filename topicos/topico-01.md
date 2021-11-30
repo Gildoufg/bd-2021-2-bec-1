@@ -9,7 +9,7 @@ Esclareça suas dúvidas.<br>
 1. **Na sua conta do GitHub**, criar um repositório necessariamente '**público**' de nome **bd-2021-2-bec**:
    - ou seja, letras minúsculas e hífen para separação: **bd**, **2021**, **2** e **bec**;
    - então, a URL do repositório será https://github.com/nomealuno/bd-2021-2-bec, onde **nomealuno** é o nome da conta do aluno no Github.
-1. Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec. Esta _issue_ irá identificar cada estudante da disciplina:
+1. Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec.<br>Esta _issue_ irá identificar cada estudante da disciplina:
    - o título da _issue_ deve ser "Tópico 01";
    - o conteúdo (corpo) da _issue_ deve possuir:
      - Meu registro acadêmico: coloque aqui o seu registro acadêmico (ou seja, número de matrícula).
