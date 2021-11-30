@@ -1,13 +1,13 @@
 ### [Tópico T01] - Ambientação com a disciplina (objetivos e metodologia)
 
-Leia o [plano](../media/bd-2021-1-bcc-plano.pdf).<br>
+Leia o [plano](../media/bd-2021-2-bec-plano.pdf).<br>
 Esclareça suas dúvidas.<br>
 
-### Atividade (data limite: **02/08/2021 23h59min59s**)
+### Atividade (data limite: **12/12/2021 23h59min59s**)
 
 1. Criar conta no Github (https://github.com), caso não possua uma. 
-1. **Na sua conta do GitHub**, criar um repositório necessariamente '**publico**' de nome **bd-2021-1-bcc**:
-   - ou seja, letras minúsculas e hífen para separação: **bd**, **2021**, **1** e **bcc**;
+1. **Na sua conta do GitHub**, criar um repositório necessariamente '**publico**' de nome **bd-2021-2-bec**:
+   - ou seja, letras minúsculas e hífen para separação: **bd**, **2021**, **2** e **bec**;
    - então, a URL do repositório será https://github.com/nomealuno/bd-2021-2-bec, onde **nomealuno** é o nome da conta do aluno no Github.
 1. Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec. Esta _issue_ irá identificar cada estudante da disciplina:
    - o título da _issue_ deve ser "Tópico 01";
