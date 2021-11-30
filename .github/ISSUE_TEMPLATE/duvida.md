@@ -1,6 +1,6 @@
 ---
 name: Dúvida
-about: _Issue_ para dúvida 'fora do fluxo de tópicos'
+about: Issue para dúvida 'fora do fluxo de tópicos'
 title: "[Dúvida] <escreva aqui o assunto da sua dúvida>"
 labels: ''
 assignees: ''
