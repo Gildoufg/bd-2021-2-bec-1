@@ -2,7 +2,7 @@
 
 O plano da disciplina está disponível [aqui](./media/bd-2021-2-bec-plano.pdf).<br>
 Recomendações sobre direitos autorais [aqui](./media/recomendacao-prograd.pdf).<br>
-Os momentos síncronos ocorrerão na sala [https://meet.google.com/pyd-tbae-ino](https://meet.google.com/pyd-tbae-ino) :
+Os momentos síncronos ocorrerão na sala [https://meet.google.com/sui-hfcg-gcc](https://meet.google.com/sui-hfcg-gcc) :
 - Terça-feira, 08h50-09h40;
 - Quinta-feira, 08h50-09h40.
 
