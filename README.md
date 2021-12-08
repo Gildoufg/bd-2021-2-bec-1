@@ -9,6 +9,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/nxf-aobp-pwz]
 ### Tópicos com atividades ativas
 
 - [Tópico 01](./topicos/topico-01.md) (Data limite: 14/12/2021 23:59:59)<br>
+- [Tópico 02](./topicos/topico-02.md) (Data limite: 14/12/2021 23:59:59)<br>
 - [Todos os tópicos](topicos/topicos.md)<br>
 
 ### Avisos ativos
