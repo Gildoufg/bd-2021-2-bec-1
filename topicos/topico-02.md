@@ -22,7 +22,7 @@ Sobre o **software** que gerencia o banco de dados, alguns de seus possíveis pa
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 02", para responder as duas questões a seguir:  
 1. Com relação às definições sobre 'o que é banco de dados' (apresentadas no início deste tópico), analise as diferenças entre as definições, com especial atenção aos termos específicos de algumas delas, tais como 'operacionais' e 'usados'. Apresente a sua definição sobre 'o que banco de dados', tal que englobe o conteúdo das seis definições apresentadas, mas não use os termos (palavras) já presentes nas seis definições.
-1. Sobre os possíveis papéis do **software** que gerencia o banco de dados, observe que há termos assinalados em negrito e itálico e seguidos de (??), tais como ***linguagem de consulta*** e ***durabilidade***. Escolha 02 (dois) desses termos, pesquise e apresente o seu entendimento sobre os termos escolhidos.
+1. Sobre os possíveis papéis do **software** que gerencia o banco de dados, observe que há termos assinalados em negrito e itálico e seguidos de (??), tais como ***linguagem de consulta*** e ***durabilidade***. Escolha 02 (dois) desses termos, pesquise e apresente o seu entendimento sobre os termos escolhidos.<br>A bibliografia sugerida será útil em sua pesquisa: ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
    
 ## Artefatos
 
