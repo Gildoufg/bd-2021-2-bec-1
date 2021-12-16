@@ -8,7 +8,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/nxf-aobp-pwz]
 
 ### Tópicos com atividades ativas
 
-> Quan a diferença entre **Modelo de Dados** e **Esquema de Banco de Dados** ?
+> Qual a diferença entre **Modelo de Dados** e **Esquema de Banco de Dados** ?
 
 - [Tópico 04](./topicos/topico-04.md) (Data limite: 20/12/2021 23:59:59)<br>
 - [Tópico 05](./topicos/topico-05.md) (Data limite: 20/12/2021 23:59:59)<br>
