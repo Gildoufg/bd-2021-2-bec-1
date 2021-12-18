@@ -61,7 +61,7 @@ Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima
 **(e)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
 **(f)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }<br>
 **(g)**  R(A<sub>1</sub>, A<sub>2</sub>, ...,A<sub>n</sub>)<br>
-**(h)**  Conjunto de n-tuplas: { t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>m</sub> }
+**(h)**  Conjunto de n-tuplas: { t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>m</sub> }<br>
 **(i)**  Lista ordenada de n valores: <v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>><br>
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 07", para responder:  
