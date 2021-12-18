@@ -50,7 +50,7 @@ Para o Modelo Relacional (MR), um *checklist* com a maioria dos conceitos deste 
 
 Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados no Capítulo 3 do livro sugerido[1]. 
 
-## Atividade (data limite: **15/08/2021 23h59min59s**)
+## Atividade (data limite: **26/12/2021 23h59min59s**)
 
 Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima, alguns deles são apresentados abaixo:
 
