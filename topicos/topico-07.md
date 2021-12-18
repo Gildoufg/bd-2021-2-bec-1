@@ -54,15 +54,15 @@ Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é 
 
 Dentre os conceitos presentes no **_Checklist_ sobre o Modelo Relacional** acima, alguns deles são apresentados abaixo:
 
-**(a)**  Lista ordenada de n valores: <v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>><br>
-**(b)**  Subconjunto do produto Cartesiano dos domínios: r(R) ⊆ ( dom(A<sub>1</sub>) × dom(A<sub>2</sub>) × ... × dom(A<sub>n</sub>) )<br>
-**(c)**  Número total de distintos valores que um atributo pode ter<br>
-**(d)**  Nenhum valor de chave primária pode ser NULL<br>
-**(e)**  Garante a consistência entre tuplas que se relacionam<br>
-**(f)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
-**(g)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }<br>
-**(h)**  R(A<sub>1</sub>, A<sub>2</sub>, ...,A<sub>n</sub>)<br>
-**(i)**  Conjunto de n-tuplas: { t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>m</sub> }
+**(a)**  Subconjunto do produto Cartesiano dos domínios: r(R) ⊆ ( dom(A<sub>1</sub>) × dom(A<sub>2</sub>) × ... × dom(A<sub>n</sub>) )<br>
+**(b)**  Número total de distintos valores que um atributo pode ter<br>
+**(c)**  Nenhum valor de chave primária pode ser NULL<br>
+**(d)**  Garante a consistência entre tuplas que se relacionam<br>
+**(e)**  Conjunto de esquemas de relação: { R<sub>1</sub>, R<sub>2</sub>, ..., R<sub>m</sub> }<br>
+**(f)**  Conjunto de relações: { r<sub>1</sub>(R<sub>1</sub>), r<sub>2</sub>(R<sub>2</sub>), ..., r<sub>m</sub>(R<sub>m</sub>) }<br>
+**(g)**  R(A<sub>1</sub>, A<sub>2</sub>, ...,A<sub>n</sub>)<br>
+**(h)**  Conjunto de n-tuplas: { t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>m</sub> }
+**(i)**  Lista ordenada de n valores: <v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>><br>
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 07", para responder:  
 1. Observe os itens acima de (a) até (i).<br>
