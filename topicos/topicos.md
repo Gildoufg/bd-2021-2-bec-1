@@ -1,3 +1,4 @@
+[Tópico T06](./topico-06.md) - Requisitos de dados<br>
 [Tópico T05](./topico-05.md) - Modelo de dados<br>
 [Tópico T04](./topico-04.md) - Sistema gerenciador de banco de dados<br>
 [Tópico T03](./topico-03.md) - Dados e metadados<br>
