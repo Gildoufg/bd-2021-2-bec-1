@@ -29,7 +29,7 @@ Algumas benefícios potenciais para o emprego de SGBDs são:
 - mecanismos de segurança dos dados, tais como, cópia (*backup*) e recuperação (*recovery*) de dados;
 - etc.
 
-## Atividade (data limite: **20/20/2021 23h59min59s**)
+## Atividade (data limite: **20/12/2021 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 04", para responder:  
 1. Sobre os potenciais benefícios para o emprego de SGBDs, escolha dois (dentre os citados acima ou outros) e explique-os de forma objetiva, se possível com exemplos.<br>A bibliografia sugerida será útil em sua pesquisa: ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
