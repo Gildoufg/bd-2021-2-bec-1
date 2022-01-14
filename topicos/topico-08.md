@@ -116,16 +116,6 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com 
 Pergunta: **Quais as chaves estrangeiras no esquema lógico do BD Empresa?**<br>
 Resposta: <responda segundo a notação _RELAÇÃO(FK) REFERENCIA RELAÇÃO(PK)_, para cada chave estrangeira>
 
-RESPOSTA:<br>
-FUNCIONARIO(Cpf_supervisor) REFERENCIA FUNCIONARIO(Cpf)<br>
-DEPARTAMENTO(Cpf_gerente) REFERENCIA FUNCIONARIO(Cpf)<br>
-DEPENDENTE(Fcpf) REFERENCIA FUNCIONARIO(Cpf)<br>
-TRABALHA_EM(Fcpf) REFERENCIA FUNCIONARIO(Cpf)<br>
-TRABALHA_EM(Pnr) REFERENCIA PROJETO(Projnumero)<br>
-FUNCIONARIO(Dnr) REFERENCIA DEPARTAMENTO(Dnumero)<br>
-LOCALIZACAO_DEP(Dnumero) REFERENCIA DEPARTAMENTO(Dnumero)<br>
-PROJETO(Dnum) REFERENCIA DEPARTAMENTO(Dnumero)<br>
-
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 08", para indicar suas reflexões iniciais sobre *chave estrangeira*.
