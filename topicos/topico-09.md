@@ -178,6 +178,7 @@ O presente tópico introduziu três operações básicas da álgebra relacional,
 
 ### Sobre chave estrangeiras (Topico 08), é possível uma chave estrangeira composta por vários atributos?
 
+MUNICIPIO (**Nome**, **Estado**, Região)<br>
 MUNICIPIO
 | **Nome** | **Estado** | Região |
 |-|-|-|
@@ -185,8 +186,10 @@ MUNICIPIO
 | **Goiânia** | **GO** | Centro-oeste |
 | **Santa Rosa** | **MG** | Sudeste |
 
+BAIRRO (**Cidade**, **Estado**, **Nome**, Area)<br>
+BAIRRO (Cidade, Estado) REFERENCIA MUNICIPIO (Nome, Estado)<br>
 BAIRRO
-| **Cidade** | **Estado** | **Bairro** | Área |
+| **Cidade** | **Estado** | **Nome** | Área |
 |-|-|-|-|
 | **Santa Rosa** | **GO** | **Centro** | 100 |
 | **Santa Rosa** | **MG** | **Oeste** | 120 |
