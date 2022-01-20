@@ -176,6 +176,24 @@ Em relação ao **BD Simples**, cuja ilustração está no início do presente t
 O presente tópico introduziu três operações básicas da álgebra relacional, a saber: SELEÇÃO, PROJEÇÃO e RENOMEAÇÃO (#1 e #2).<br>
 **O entendimento dessas operações é crucial para a apropriação de novos conteúdos da álgebra relacional.**
 
+### Sobre chave estrangeiras (Topico 08), é possível uma chave estrangeira composta por vários atributos?
+
+MUNICIPIO
+| **Nome** | **Estado** | Região |
+|-|-|-|
+| **Santa Rosa** | **GO** | Centro-oeste |
+| **Goiânia** | **GO** | Centro-oeste |
+| **Santa Rosa** | **MG** | Sudeste |
+
+BAIRRO
+| **Cidade** | **Estado** | **Bairro** | Área |
+|-|-|-|-|
+| **Santa Rosa** | **GO** | **Centro** | 100 |
+| **Santa Rosa** | **MG** | **Oeste** | 120 |
+| **Santa Rosa** | **MG** | **Centro** | 111 |
+
+
+
 ## Atividade (data limite: **23/01/2022 23h59min59s**)
 
 Um banco de dados simples (**BD Simples**) possui o seguinte esquema conceitual:<br>
