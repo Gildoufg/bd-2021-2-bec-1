@@ -130,10 +130,10 @@ A seguinte sequência de expressões da álgebra relacional foi aplicada ao **BD
 &#8718; AUX6 &#8592; π AUX2.Preço (AUX1 &#8904;<sub>AUX1.Preço <= AUX2.Preço</sub> AUX2)<br>
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 10", para responder:  
+1. Qual o conteúdo da relação AUX3 ?<br>
 1. Qual o conteúdo da relação AUX4 ?<br>
 1. Qual o conteúdo da relação AUX5 ?<br>
-1. Qual o conteúdo da relação AUX6 ?
-1. Qual o conteúdo da relação AUX3 ?<br>
+1. Qual o conteúdo da relação AUX6 ?<br>
 
 As respostas possíveis se referem aos preços dos produtos, podendo ser:<br>
 &#8718; Nenhum preço (conjunto vazio)<br>
