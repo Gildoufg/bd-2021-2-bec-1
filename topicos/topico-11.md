@@ -75,12 +75,6 @@ Escreva em álgebra relacional as seguintes consultas ao BD Empresa:
 
 IMPORTANTE: Use a sintaxe da Álgebra Relacional conforme os exemplos apresentados.
 
-RESPOSTAS:
-
-1. FUNC_SEM_DEP(Cpf) ← π <sub>Cpf</sub> (FUNCIONARIO) - π <sub>Fcpf</sub> (DEPENDENTE)<br>RESULT ← π <sub>Pnome, Unome</sub> (FUNCIONARIO * FUNC_SEM_DEP)
-
-1. RESULT ← π <sub>Pnome, Unome</sub> (FUNCIONARIO ⋈ <sub>Cpf = Fcpf</sub> TRABALHA_EM)
-
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 11", para praticar operações da *álgebra relacional*.
