@@ -124,10 +124,10 @@ Considere, também, o [conteúdo do] banco de dados na figura que ilustra **PROD
 A seguinte sequência de expressões da álgebra relacional foi aplicada ao **BD Simples**:<br>
 &#8718; AUX1 &#8592; π <sub>CodProduto, Descrição, Preço</sub> (PRODUTO)<br>
 &#8718; AUX2 &#8592; π <sub>CodProduto, Descrição, Preço</sub> (PRODUTO)<br>
-&#8718; AUX3 &#8592; π AUX1.Preço (AUX1 &#8904;<sub>AUX1.Preço < AUX2.Preço</sub> AUX2)<br>
-&#8718; AUX4 &#8592; π AUX2.Preço (AUX1 &#8904;<sub>AUX1.Preço < AUX2.Preço</sub> AUX2)<br>
-&#8718; AUX5 &#8592; π AUX1.Preço (AUX1 &#8904;<sub>AUX1.Preço <= AUX2.Preço</sub> AUX2)<br>
-&#8718; AUX6 &#8592; π AUX2.Preço (AUX1 &#8904;<sub>AUX1.Preço <= AUX2.Preço</sub> AUX2)<br>
+&#8718; AUX3 &#8592; π AUX2.Preço (AUX1 &#8904;<sub>AUX1.Preço < AUX2.Preço</sub> AUX2)<br>
+&#8718; AUX4 &#8592; π AUX1.Preço (AUX1 &#8904;<sub>AUX1.Preço <= AUX2.Preço</sub> AUX2)<br>
+&#8718; AUX5 &#8592; π AUX2.Preço (AUX1 &#8904;<sub>AUX1.Preço <= AUX2.Preço</sub> AUX2)<br>
+&#8718; AUX6 &#8592; π AUX1.Preço (AUX1 &#8904;<sub>AUX1.Preço < AUX2.Preço</sub> AUX2)<br>
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 10", para responder:  
 1. Qual o conteúdo da relação AUX3 ?<br>
