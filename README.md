@@ -10,8 +10,8 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/nxf-aobp-pwz]
 
 > Qual a diferença entre **Modelo de Dados** e **Esquema de Banco de Dados** ?
 
-- [Tópico 10](./topicos/topico-10.md) (Data limite: 02/02/2022 23:59:59)<br>
-- [Tópico 11](./topicos/topico-11.md) (Data limite: 02/02/2022 23:59:59)<br>
+- [Tópico 10](./topicos/topico-10.md) (Data limite: 01/02/2022 23:59:59)<br>
+- [Tópico 11](./topicos/topico-11.md) (Data limite: 01/02/2022 23:59:59)<br>
 - [Tópico 11a](./topicos/topico-11a.md)<br>
 - [Todos os tópicos](topicos/topicos.md)<br>
 
