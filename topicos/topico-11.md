@@ -65,7 +65,7 @@ Qual o CPF e o nome dos funcionários que são supervisores e gerentes de depart
 Qual o maior salário da empresa?<br>
 ■ _escreva a consulta em álgebra relacional_...
 
-## Atividade (data limite: **02/02/2022 23h59min59s**)
+## Atividade (data limite: **01/02/2022 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 11", para responder:  
 
