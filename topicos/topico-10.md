@@ -110,7 +110,7 @@ OU<br>
 - A Operação JUNÇÃO combina tuplas relacionadas entre si.
 ```
 
-## Atividade (data limite: **02/02/2022 23h59min59s**)
+## Atividade (data limite: **01/02/2022 23h59min59s**)
 
 Considere o esquema lógico do **BD Simples**:<br>
 &#8718; PRODUTO(CodProduto, Descrição, Preço, _Categ_), cuja chave primária (PK) é **CodProduto**;<br>
