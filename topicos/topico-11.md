@@ -55,13 +55,15 @@ As operações abaixo estão corretas?<br>
 Qual o CPF dos funcionários que são supervisores e gerentes de departamento?<br>
 ■ _escreva a consulta em álgebra relacional_...
 
-TEMP(Cpf) ← π<sub>Cpf_supervisor</sub>(FUNCIONARIO) ∩ π<sub>Cpf_gerente</sub>(DEPARTAMENTO)<br>
-RESULT ← π<sub>Pnome, Unome</sub>(FUNCIONARIO * TEMP)
+RESULT ← π<sub>Cpf_supervisor</sub>(FUNCIONARIO) ∩ π<sub>Cpf_gerente</sub>(DEPARTAMENTO)<br>
 
 #### UNIÃO, INTERSEÇÃO e DIFERENÇA Exemplo 4:
 
 Qual o CPF e o nome dos funcionários que são supervisores e gerentes de departamento?<br>
 ■ _escreva a consulta em álgebra relacional_...
+
+TEMP(Cpf) ← π<sub>Cpf_supervisor</sub>(FUNCIONARIO) ∩ π<sub>Cpf_gerente</sub>(DEPARTAMENTO)<br>
+RESULT ← π<sub>Cpf, Pnome, Unome</sub>(FUNCIONARIO * TEMP)
 
 #### UNIÃO, INTERSEÇÃO e DIFERENÇA Exemplo 5:
 
