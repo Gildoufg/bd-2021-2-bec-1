@@ -55,6 +55,8 @@ As operações abaixo estão corretas?<br>
 Qual o CPF dos funcionários que são supervisores e gerentes de departamento?<br>
 ■ _escreva a consulta em álgebra relacional_...
 
+π<sub>Cpf_supervisor</sub>(FUNCIONARIO) ∩ π<sub>Cpf_gerente</sub>(DEPARTAMENTO)
+
 #### UNIÃO, INTERSEÇÃO e DIFERENÇA Exemplo 4:
 
 Qual o CPF e o nome dos funcionários que são supervisores e gerentes de departamento?<br>
