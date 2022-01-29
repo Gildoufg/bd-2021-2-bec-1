@@ -1,4 +1,4 @@
-[Tópico T14](./topico-14.md) - Álgebra Relacional - Ferramenta RelaX<br>
+[Tópico T13a](./topico-13a.md) - Álgebra Relacional - Ferramenta RelaX<br>
 [Tópico T13](./topico-13.md) - Álgebra Relacional - Junção Externa<br>
 [Tópico T12](./topico-12.md) - Álgebra Relacional - Divisão, Função Agregada, Agrupamento<br>
 [Tópico T11a](./topico-11a.md) - Álgebra Relacional - Junção vs. União, Interseção, Diferença<br>
