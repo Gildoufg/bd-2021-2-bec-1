@@ -84,7 +84,7 @@ Abaixo são mostrados exemplos para as três variações da operação JUNÇÃO 
 
 <img src="../media/fig-algebra-juncao-externa.jpg" width="500">
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **07/02/2022 23h59min59s**)
 
 Seja o esquema relacional simplificado abaixo:
 -	VENDE ( Bar, Cerveja )
