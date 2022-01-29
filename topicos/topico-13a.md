@@ -119,14 +119,4 @@ Algumas distinções com respeito à notação:
 
 #### Outras operações ...
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
-
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bxx, com o título "Tópico 14", para responder:  
-
-1. Você consegue usar a Ferramenta RelaX e entender os exemplos apresentados no tópico?<br>Favor selecionar uma das respostas a seguir:
-   - "Sim, eu consigo usar a Ferramenta RelaX e entender os exemplos apresentados no tópico", ou
-   - "Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
-
-## Artefatos
-
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bxx, cujo título é "Tópico 14", para praticar operações da *álgebra relacional* usando a Ferramenta RelaX.
+## Não há atividade para este tópico, excepcionalmente.
