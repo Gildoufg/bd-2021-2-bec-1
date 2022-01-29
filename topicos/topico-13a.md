@@ -1,4 +1,4 @@
-## [Tópico T14] - Álgebra Relacional - Ferramenta RelaX
+## [Tópico T13a] - Álgebra Relacional - Ferramenta RelaX
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 **RelaX** (_relational algebra calculator_) é uma calculadora de álgebra relacional, criada por Johannes Kessler (_Databases and Information Systems Group_), no Instituto de Ciência da Computação da Universidade de Innsbruck (Áustria), sob supervisão de Michael Tschuggnall e Prof. Dr. Günther Specht.
