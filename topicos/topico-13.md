@@ -82,7 +82,7 @@ Há três variações de JUNÇÃO EXTERNA:
 
 Abaixo são mostrados exemplos para as três variações da operação JUNÇÃO EXTERNA.
 
-**R ⨝ <sub>RK = SK</sub> S**
+Na JUNÇÃO INTERNA (INNER JOIN): **R ⨝ <sub>RK = SK</sub> S**
 
 |RK|RX|SK|SX|
 |-|-|-|-|
