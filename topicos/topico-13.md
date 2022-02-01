@@ -82,6 +82,12 @@ Há três variações de JUNÇÃO EXTERNA:
 
 Abaixo são mostrados exemplos para as três variações da operação JUNÇÃO EXTERNA.
 
+**R ⨝ <sub>RK = SK</sub> S**
+
+|RK|RX|SK|SX|
+|-|-|-|-|
+|11|RR11|11|SS11|
+
 <img src="../media/fig-algebra-juncao-externa.jpg" width="500">
 
 ## Atividade (data limite: **07/02/2022 23h59min59s**)
