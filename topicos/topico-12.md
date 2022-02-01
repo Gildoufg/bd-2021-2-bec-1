@@ -82,7 +82,7 @@ Qual o nome dos funcionários que possuem dois ou mais dependentes?
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 12", para responder:  
 
 Escreva em álgebra relacional as seguintes consultas ao BD Empresa: 
-1. Qual o nome dos departamentos cujo salário médio dos empregados que trabalham para o departamento é superior a 2000 reais?
+1. Qual o nome dos departamentos cujo salário médio dos empregados que trabalham para o departamento é superior a 25000 reais?
 1. Qual o nome dos departamentos que possuem três ou mais empregados que trabalham para o departamento?
 
 IMPORTANTE: Use a sintaxe da Álgebra Relacional conforme os exemplos apresentados.
