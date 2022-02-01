@@ -20,7 +20,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/nxf-aobp-pwz]
 
 ### Avisos ativos
 
-- Em 03/02/2022 (quinta-feira), não haverá a sessão síncrona.<br>Peço-lhes que estejam atentos ao conteúdo e às atividades dos tópicos pa presente semana.
+- Em 03/02/2022 (quinta-feira), não haverá a sessão síncrona.<br>**Peço-lhes que estejam atentos ao conteúdo e às atividades dos tópicos da presente semana**.
 - Ao criar uma *issue*, selecione um dos *templates*: **Tópico** ou **Dúvida**.
 <br>
 <br>
