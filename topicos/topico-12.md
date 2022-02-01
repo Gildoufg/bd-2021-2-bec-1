@@ -63,6 +63,8 @@ O **AGRUPAMENTO** envolve o **agrupamento de _tuplas_** em uma relação, a part
 Qual a quantidade de funcionários e média salarial por departamento da empresa?<br>
 ■ <sub>Dnr</sub> ℑ CONTA <sub>Cpf</sub>, MÉDIA <sub>Salario</sub> (FUNCIONARIO)<br>
 OU<br>
+■ RESULT(Identificacao_do_departamento, Quantidade_de_empregados, Salario_medio) ← <sub>Dnr</sub> ℑ CONTA <sub>Cpf</sub>, MÉDIA <sub>Salario</sub> (FUNCIONARIO)<br>
+OU<br>
 ■ ρ <sub>RESULT</sub> <sub>(Identificacao_do_departamento, Quantidade_de_empregados, Salario_medio)</sub> (<sub>Dnr</sub> ℑ CONTA <sub>Cpf</sub>, MÉDIA <sub>Salario</sub> (FUNCIONARIO))
 
 #### FUNÇÃO AGREGADA e AGRUPAMENTO Exemplo 3:
