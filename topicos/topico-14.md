@@ -75,7 +75,7 @@ ALTER TABLE FUNCIONARIO <br>
 &nbsp;&nbsp;&nbsp;&nbsp; ADD CONSTRAINT FUNCIONARIO_CK_SEXO <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CHECK (Sexo IN ('M','F')); <br>
 
-## Atividade (data limite: **13/01/2022 23h59min59s**)
+## Atividade (data limite: **13/02/2022 23h59min59s**)
 
 Veja o conteúdo do arquivo [empresa.sql](../data/empresa.sql):
 - O conteúdo do arquivo possui comandos para a **definição** (criação das estruturas de dados) e **construção** (carga inicial) do **BD Empresa**.
