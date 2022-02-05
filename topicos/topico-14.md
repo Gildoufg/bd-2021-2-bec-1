@@ -75,7 +75,7 @@ ALTER TABLE FUNCIONARIO <br>
 &nbsp;&nbsp;&nbsp;&nbsp; ADD CONSTRAINT FUNCIONARIO_CK_SEXO <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CHECK (Sexo IN ('M','F')); <br>
 
-## Atividade (data limite: **13/02/2022 23h59min59s**)
+### Exercício
 
 Veja o conteúdo do arquivo [empresa.sql](../data/empresa.sql):
 - O conteúdo do arquivo possui comandos para a **definição** (criação das estruturas de dados) e **construção** (carga inicial) do **BD Empresa**.
@@ -98,7 +98,10 @@ Pronto, o **BD Empresa** foi criado e está pronto para ser manipulado (usado).<
   - substitua _<nome_relação>_ por:
     - FUNCIONARIO, DEPARTAMENTO, LOCALIZACAO_DEP, PROJETO, TRABALHA_EM, DEPENDENTE.
 
+## Atividade (data limite: **13/02/2022 23h59min59s**)
+
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 14", para responder:  
+
 Sistemas Gerenciadores de Banco de Dados (SGBDs) suportam uma variedade de tipos de dados para definir o dominio de atributos. 
 
 1. São exemplos de tipos de dados numéricos: DECIMAL, TINYINT e FLOAT:
