@@ -138,7 +138,7 @@ Vamos executar o conteúdo do arquivo [empresa.sql](../data/empresa.sql), tal qu
 Pronto, o **BD Empresa** foi criado e está pronto para ser manipulado (usado).<br>
 **Execute cada consulta apresentada nos exemplos acima**
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **13/02/2022 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 15", para responder:  
 
