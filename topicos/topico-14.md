@@ -99,13 +99,16 @@ Pronto, o **BD Empresa** foi criado e está pronto para ser manipulado (usado).<
     - FUNCIONARIO, DEPARTAMENTO, LOCALIZACAO_DEP, PROJETO, TRABALHA_EM, DEPENDENTE.
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 14", para responder:  
+Sistemas Gerenciadores de Banco de Dados (SGBDs) suportam uma variedade de tipos de dados para definir o dominio de atributos. 
 
-1. Você consegue criar o **BD Empresa** e consultar o conteúdo das relações, usando a ferramenta _SQLiteOnline_, ou outra ferramenta?<br>Favor selecionar uma das respostas a seguir:
-   - "Sim, eu consigo criar o **BD Empresa** e consultar o conteúdo das relações", ou
-   - "Não, pois eu tenho as seguintes dificuldades: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
+1. São exemplos de tipos de dados numéricos: DECIMAL, TINYINT e FLOAT:
+- Exemplifique um SGBD que implemente os três tipos de dados.
+- Apresente a diferença entre tais tipos de dados.
 
-P.S.: O [conteúdo do] banco de dados criado - BD Empresa - é o mesmo conteúdo da [ilustração do BD Empresa](../media/fig-mr-2.jpg)?
+2. São exemplos de tipos de dados para datas: DATE, DATETIME e SMALLDATETIME:
+- Exemplifique um SGBD que implemente os três tipos de dados.
+- Apresente a diferença entre tais tipos de dados.
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 14", para ter o primeiro contato com comandos da SQL.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 14", para explorar os tipos de dados para definir o dominio de atributos.
