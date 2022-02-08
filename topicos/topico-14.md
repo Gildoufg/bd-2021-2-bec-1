@@ -118,6 +118,8 @@ Sistemas Gerenciadores de Banco de Dados (SGBDs) suportam uma variedade de tipos
 - Exemplifique um SGBD que implemente os três tipos de dados.
 - Apresente a diferença entre tais tipos de dados.
 
+Em ambas as questões acima, apresente a(s) fonte(s) que você utilizou para respondê-las.
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 14", para explorar os tipos de dados para definir o dominio de atributos.
