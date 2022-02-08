@@ -60,6 +60,9 @@ ALTER TABLE FUNCIONARIO <br>
 ALTER TABLE FUNCIONARIO <br>
 &nbsp;&nbsp;&nbsp;&nbsp; ADD CONSTRAINT FUNCIONARIO_FK_TRABALHA_EM <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FOREIGN KEY (Dnr) REFERENCES DEPARTAMENTO(Dnumero); <br>
+ALTER TABLE FUNCIONARIO <br>
+&nbsp;&nbsp;&nbsp;&nbsp; ADD CONSTRAINT FUNCIONARIO_CK_SEXO <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CHECK Sexo IN ('M','F'); <br>
 
 #### Comandos DDL Exemplo 3
 
