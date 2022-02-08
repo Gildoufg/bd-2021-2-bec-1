@@ -29,7 +29,7 @@ CREATE TABLE FUNCIONARIO (<br>
 &nbsp;&nbsp;&nbsp;&nbsp; Cpf CHAR(9) NOT NULL, <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Datanasc DATE NOT NULL, <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Endereco VARCHAR(40) NOT NULL, <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Sexo CHAR(1) NOT NULL, <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Sexo CHAR(1) NOT NULL CHECK Sexo IN ('M','F'), <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Salario NUMERIC(20,2) NOT NULL, <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Cpf_supervisor CHAR(9) NULL, <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Dnr INT NOT NULL, <br>
