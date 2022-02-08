@@ -57,6 +57,9 @@ ALTER TABLE FUNCIONARIO <br>
 ALTER TABLE FUNCIONARIO <br>
 &nbsp;&nbsp;&nbsp;&nbsp; ADD CONSTRAINT FUNCIONARIO_FK_SUPERVISAO <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FOREIGN KEY (Cpf_supervisor) REFERENCES FUNCIONARIO(Cpf); <br>
+ALTER TABLE FUNCIONARIO <br>
+&nbsp;&nbsp;&nbsp;&nbsp; ADD CONSTRAINT FUNCIONARIO_FK_TRABALHA_EM <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FOREIGN KEY (Dnr) REFERENCES DEPARTAMENTO(Dnumero); <br>
 
 #### Comandos DDL Exemplo 3
 
