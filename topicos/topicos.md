@@ -1,3 +1,5 @@
+[Tópico T17](./topico-17.md) - SQL - <br>
+[Tópico T16](./topico-16.md) - SQL - <br>
 [Tópico T15](./topico-15.md) - SQL - DML (_Data Manipulation Language_): Primeiros comandos<br>
 [Tópico T14](./topico-14.md) - SQL - Introdução, DDL (_Data Definition Language_)<br>
 [Tópico T13a](./topico-13a.md) - Álgebra Relacional - Ferramenta RelaX<br>
