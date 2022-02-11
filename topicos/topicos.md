@@ -1,4 +1,4 @@
-[Tópico T17](./topico-17.md) - SQL - <br>
+[Tópico T17](./topico-17.md) - SQL - DML (Data Manipulation Language): Funções Agregadas, Agrupamento de dados, Ordenação de Dados<br>
 [Tópico T16](./topico-16.md) - SQL - DML (Data Manipulation Language): Junção, Junção Natural, Valor nulo, Junção Externa<br>
 [Tópico T15](./topico-15.md) - SQL - DML (_Data Manipulation Language_): Primeiros comandos<br>
 [Tópico T14](./topico-14.md) - SQL - Introdução, DDL (_Data Definition Language_)<br>
