@@ -129,9 +129,9 @@ Retornando aos 'significados' do **Valor Nulo**:
 |-|
 |SELECT FUNC.Pnome, FUNC.Unome, SUPER.Pnome, SUPER.Unome<br>FROM FUNCIONARIO AS FUNC LEFT OUTER JOIN FUNCIONARIO AS SUPER<br>&nbsp;&nbsp;&nbsp;&nbsp;ON FUNC.Cpf_supervisor = SUPER.Cpf|
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **20/02/2022 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bxx, com o título "Tópico 16", para responder: 
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 16", para responder: 
 
 1. Em consultas escritas em SQL, quando há pelo menos um NULL no predicado da cláusula WHERE, o resultado da avaliação é "desconhecido" (exceto quando são explicitamente empregados IS NULL ou IS NOT NULL); por exemplo, o resultado da avaliação de **(3 + NULL > 7)** é "desconhecido". Portanto, "verdadeiro", "falso" e "desconhecido" são os resultados possíveis na avaliação de predicados da cláusula WHERE. A regra geral é que são selecionadas apenas as combinações de _tuplas_ em que o predicado é avaliado como “verdadeiro”. Seja a relação R que possui quatro tuplas – (12, 15, 5100), (13, NULL, 3500), (14, NULL, NULL) e (15, 12, NULL) – em que o primeiro, o segundo e o terceiro valores em cada _tupla_ referem-se aos atributos **at1**, **at2** e **at3**, respectivamente. Os comandos a seguir representam consultas sobre R:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at2>12) AND (at3>3000) (um)<br>
@@ -149,4 +149,4 @@ _Para cada funcionário, liste o primeiro nome e o último nome e, se o funcion�
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bxx, cujo título é "Tópico 16", para entender e usar Junção e Valores Nulos em consultas da SQL.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 16", para entender e usar Junção e Valores Nulos em consultas da SQL.
