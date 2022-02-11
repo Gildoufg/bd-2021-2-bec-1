@@ -144,7 +144,6 @@ A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e 
 &nbsp;&nbsp;(d) zero, dois e dois.<br>
 &nbsp;&nbsp;(e) dois, dois e um.<br>
 
-
 2. A partir da [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), escreva a seguinte consulta em SQL (uma única consulta que usa JUNÇÃO EXTERNA):
    - Se o funcionário possui um ou mais dependentes: 
      - _para cada dependente, apresente o primeiro e último nomes do funcionário responsável, bem como o nome do dependente, restrito aos casos em que a primeira letra do seu nome (se refere a você, que é discente da disciplina) está presente concomitantemente no primeiro nome do funcionário e no nome do dependente._
