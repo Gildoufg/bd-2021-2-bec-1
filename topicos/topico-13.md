@@ -126,6 +126,16 @@ CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR
 AUX ← σ Qtde = 0 (CONT)<br>
 RESULTADO ←π Pessoa(AUX * GOSTA)
 
+Abaixo está uma solução à Questão 04?<br>
+- CERV_PIPOCA ← π cerveja (σ bar = "Pipoca" (VENDE))<br>
+RESULT ← π pessoa (GOSTA ÷ CERV_PIPOCA)
+
+Abaixo está uma solução à Questão 04?<br>
+- BAR(Cerveja_do_bar) ← π Cerveja (σ Bar = pipoca (VENDE))<br>
+AUX ← π Pessoa, Cerveja, Cerveja_do_bar (GOSTA ⟕ Cerveja = Cerveja_do_bar BAR)<br>
+GOSTAM ← πPessoa(σ Cerveja_do_bar != null (AUX))<br>
+NGOSTAM ← πPessoa(σ Cerveja_do_bar = null (AUX))<br>
+RESULTADO ← GOSTAM - NGOSTAM
 
 ## Artefatos
 
