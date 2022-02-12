@@ -109,6 +109,15 @@ Escreva em álgebra relacional as seguintes consultas:
 
 IMPORTANTE: Use a sintaxe da Álgebra Relacional conforme os exemplos apresentados até então.
 
+RESPOSTAS:
+
+1. RESULT ← π Cerveja ( σ Bar=”Pipoca” (VENDE) )
+2. RESULT ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )
+3. TEMP ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )
+RESULT ← π Pessoa (GOSTA) - TEMP
+4. TEMP ← π Cerveja (VENDE) - π Cerveja ( σ Bar = "Pipoca" (VENDE) )
+RESULT ← π Pessoa (GOSTA) - π Pessoa (TEMP * GOSTA) )
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 13", para praticar operações da *álgebra relacional*.
