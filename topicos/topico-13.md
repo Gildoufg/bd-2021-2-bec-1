@@ -118,6 +118,15 @@ RESULT ← π Pessoa (GOSTA) - TEMP
 4. TEMP ← π Cerveja (VENDE) - π Cerveja ( σ Bar = "Pipoca" (VENDE) )<br>
 RESULT ← π Pessoa (GOSTA) - π Pessoa (TEMP * GOSTA) )
 
+DÚVIDAS:
+
+Abaixo está uma solução à Questão 03?<br>
+- BAR ← σ Bar = pipoca (VENDE)<br>
+CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR)<br>
+AUX ← σ Qtde = 0 (CONT)<br>
+RESULTADO ←π Pessoa(AUX * GOSTA)
+
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 13", para praticar operações da *álgebra relacional*.
