@@ -113,9 +113,9 @@ RESPOSTAS:
 
 1. RESULT ← π Cerveja ( σ Bar=”Pipoca” (VENDE) )
 2. RESULT ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )
-3. TEMP ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )
+3. TEMP ← π Pessoa ( σ Bar=”Pipoca” (VENDE * GOSTA) )<br>
 RESULT ← π Pessoa (GOSTA) - TEMP
-4. TEMP ← π Cerveja (VENDE) - π Cerveja ( σ Bar = "Pipoca" (VENDE) )
+4. TEMP ← π Cerveja (VENDE) - π Cerveja ( σ Bar = "Pipoca" (VENDE) )<br>
 RESULT ← π Pessoa (GOSTA) - π Pessoa (TEMP * GOSTA) )
 
 ## Artefatos
