@@ -167,6 +167,12 @@ Então ... RESULTADO é um conjunto vazio.
 - CERV_PIPOCA ← π cerveja (σ bar = "Pipoca" (VENDE))<br>
 RESULT ← π pessoa (GOSTA ÷ CERV_PIPOCA)
 
+ERV_PIPOCA
+|Cerveja|
+|-|
+|Skol|
+|Brahma|
+
 **Abaixo está uma solução à Questão 04?**
 - BAR(Cerveja_do_bar) ← π Cerveja (σ Bar = pipoca (VENDE))<br>
 AUX ← π Pessoa, Cerveja, Cerveja_do_bar (GOSTA ⟕ Cerveja = Cerveja_do_bar BAR)<br>
