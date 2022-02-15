@@ -167,7 +167,7 @@ Então ... RESULTADO é um conjunto vazio.
 - CERV_PIPOCA ← π cerveja (σ bar = "Pipoca" (VENDE))<br>
 RESULT ← π pessoa (GOSTA ÷ CERV_PIPOCA)
 
-ERV_PIPOCA
+CERV_PIPOCA
 |Cerveja|
 |-|
 |Skol|
