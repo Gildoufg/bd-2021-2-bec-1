@@ -118,13 +118,49 @@ RESULT ← π Pessoa (GOSTA) - TEMP
 4. TEMP ← π Cerveja (VENDE) - π Cerveja ( σ Bar = "Pipoca" (VENDE) )<br>
 RESULT ← π Pessoa (GOSTA) - π Pessoa (TEMP * GOSTA) )
 
-DÚVIDAS:
+DÚVIDAS:<br>Sejam as relações VENDE e GOSTA abaixo.
+
+VENDE
+|Bar|Cerveja|Questão|
+|-|-|-|
+|Alfredo|Skol||
+|Alfredo|Cerpa||
+|Pipoca|Skol|1|
+|Pipoca|Brahma|1|
+|Roberval|Cerpa||
+|Roberval|Devassa||
+
+GOSTA
+|Pessoa|Cerveja|Questão|
+|-|-|-|
+|Carlos|Skol|2, 4|
+|Carlos|Brahma|2, 4|
+|Bia|Brahma|2|
+|Bia|Cerpa||
+|Bia|Skol|2|
+|Alfredo|Skol|2|
+|Adriana|Devassa|3|
 
 Abaixo está uma solução à Questão 03?<br>
-- BAR ← σ Bar = pipoca (VENDE)<br>
-CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR)<br>
+- BAR ← σ Bar = pipoca (VENDE) [**corrigir ausência de aspas em literais do tipo _string_**]<br>
+CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR) [**desambiguar atributos**]<br>
 AUX ← σ Qtde = 0 (CONT)<br>
 RESULTADO ←π Pessoa(AUX * GOSTA)
+
+BAR
+|Bar|Cerveja|
+|-|-|
+|Pipoca|Skol|
+|Pipoca|Brahma|
+
+CONT
+|Pessoa|Qtde|
+|-|-|
+|Carlos|2|
+|Bia|2|
+|Alfredo|1|
+
+Então ... RESULTADO é um conjunto vazio.
 
 Abaixo está uma solução à Questão 04?<br>
 - CERV_PIPOCA ← π cerveja (σ bar = "Pipoca" (VENDE))<br>
