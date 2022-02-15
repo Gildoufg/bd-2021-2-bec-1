@@ -173,6 +173,12 @@ CERV_PIPOCA
 |Skol|
 |Brahma|
 
+(GOSTA ÷ CERV_PIPOCA)
+|Pessoa|
+|-|
+|Carlos|
+|Bia|
+
 **Abaixo está uma solução à Questão 04?**
 - BAR(Cerveja_do_bar) ← π Cerveja (σ Bar = pipoca (VENDE))<br>
 AUX ← π Pessoa, Cerveja, Cerveja_do_bar (GOSTA ⟕ Cerveja = Cerveja_do_bar BAR)<br>
