@@ -145,6 +145,7 @@ GOSTA
 - BAR ← σ Bar = pipoca (VENDE) [**corrigir ausência de aspas em literais do tipo _string_**]<br>
 CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR) [**desambiguar atributos**]<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Preferir: (GOSTA ⨝ GOSTA.Cerveja = BAR.Cerveja BAR)_<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Preferir: (FUINCIONARIO ⨝ Dnumero = Dnr DEPARTAMENTO)_<br>
 AUX ← σ Qtde = 0 (CONT)<br>
 RESULTADO ←π Pessoa(AUX * GOSTA)
 
