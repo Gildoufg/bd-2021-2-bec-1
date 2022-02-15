@@ -144,7 +144,7 @@ GOSTA
 **Abaixo está uma solução à Questão 03?**
 - BAR ← σ Bar = pipoca (VENDE) [**corrigir ausência de aspas em literais do tipo _string_**]<br>
 CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR) [**desambiguar atributos**]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Preferir: (GOSTA ⨝ GOSTA.Cerveja = BAR.Cerveja BAR)_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Preferir: (GOSTA ⨝ GOSTA.Cerveja = BAR.Cerveja BAR)_
 AUX ← σ Qtde = 0 (CONT)<br>
 RESULTADO ←π Pessoa(AUX * GOSTA)
 
