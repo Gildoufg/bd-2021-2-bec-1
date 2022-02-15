@@ -134,9 +134,9 @@ Retornando aos 'significados' do **Valor Nulo**:
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 16", para responder: 
 
 1. Em consultas escritas em SQL, quando há pelo menos um NULL no predicado da cláusula WHERE, o resultado da avaliação é "desconhecido" (exceto quando são explicitamente empregados IS NULL ou IS NOT NULL); por exemplo, o resultado da avaliação de **(3 + NULL > 7)** é "desconhecido". Portanto, "verdadeiro", "falso" e "desconhecido" são os resultados possíveis na avaliação de predicados da cláusula WHERE. A regra geral é que são selecionadas apenas as combinações de _tuplas_ em que o predicado é avaliado como “verdadeiro”. Seja a relação R que possui quatro tuplas – (12, 15, 5100), (13, NULL, 3500), (14, NULL, NULL) e (15, 12, NULL) – em que o primeiro, o segundo e o terceiro valores em cada _tupla_ referem-se aos atributos **at1**, **at2** e **at3**, respectivamente. Os comandos a seguir representam consultas sobre R:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at2<12) OR (at3>3500)
-&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (at2>12) OR (NOT at2<15)
-&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (NOT at2<at2) AND (at3>at2)
+&nbsp;&nbsp;&nbsp;&nbsp;(C1) SELECT * FROM R WHERE (at2<12) OR (at3>3500)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (at2>12) OR (NOT at2<15)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(C2) SELECT * FROM R WHERE (NOT at2<at2) AND (at3>at2)<br>
 A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e (C3), respectivamente, é:<br>
 &nbsp;&nbsp;(a) um, um e um.<br>
 &nbsp;&nbsp;(b) zero, dois e um.<br>
