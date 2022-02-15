@@ -40,7 +40,7 @@ Observe que existe o atributo **Sexo** em FUNCIONARIO e em DEPENDENTE, então h�
 |Álgebra Relacional|SQL|
 |-|-|
 |DEPTO(**Dnr**) ←π <sub>Dnumero</sub> (<br>&nbsp;&nbsp;&nbsp;&nbsp;σ <sub>Dnome='Pesquisa' (DEPARTAMENTO) )<br>RESULT ← π <sub>Pnome, Unome, Endereco</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;(FUNCIONARIO * DEPTO)|SELECT Pnome, Unome, Endereco<br>FROM FUNCIONARIO NATURAL JOIN<br>&nbsp;&nbsp;( SELECT Dnumero AS Dnr<br>&nbsp;&nbsp;&nbsp;&nbsp;FROM DEPARTAMENTO<br>&nbsp;&nbsp;&nbsp;&nbsp;WHERE Dnome='Pesquisa' ) AS DEPTO|
-|DEPTO(Dnome, **Dnr**, Gerente, Data) ←<br>&nbsp;&nbsp;&nbsp;&nbsp;σ <sub>Dnome='Pesquisa' (DEPARTAMENTO)<br>RESULT ← π <sub>Pnome, Unome, Endereco</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;(FUNCIONARIO * DEPTO)|**# Comando funciona em _PostgreSQL_, mas não em _MariaDB_**<br>SELECT Pnome, Unome, Endereco<br>FROM FUNCIONARIO NATURAL JOIN<br>&nbsp;&nbsp;&nbsp;&nbsp;DEPARTAMENTO AS DEPTO (Nome, **Dnr**, Gerente, Data)<br>WHERE Dnome = 'Pesquisa'|
+|DEPTO(Dnome, **Dnr**, Gerente, Data) ←<br>&nbsp;&nbsp;&nbsp;&nbsp;σ <sub>Dnome='Pesquisa' (DEPARTAMENTO)<br>RESULT ← π <sub>Pnome, Unome, Endereco</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;(FUNCIONARIO * DEPTO)|**# Comando funciona em _PostgreSQL_, mas não em _MariaDB_**<br>SELECT Pnome, Unome, Endereco<br>FROM FUNCIONARIO NATURAL JOIN<br>&nbsp;&nbsp;&nbsp;&nbsp;DEPARTAMENTO AS DEPTO (Nome, **Dnr**, Gerente, Data)<br>WHERE Nome = 'Pesquisa'|
 
 ### Exemplo 06: JUNÇÃO com mais de duas relações
 #### Para cada projeto localizado em 'São Paulo', liste o nome do projeto, o nome do departamento que controla o projeto, bem como o primeiro e o último nomes do gerente do departamento.
