@@ -138,7 +138,7 @@ GOSTA
 |Bia|Brahma|2|
 |Bia|Cerpa||
 |Bia|Skol|2|
-|Alfredo|Skol|2|
+|Alfredo|Skol|2,4|
 |Adriana|Devassa|3|
 
 **Abaixo está uma solução à Questão 03?**
@@ -210,6 +210,17 @@ GOSTAM
 |Bia|
 |Alfredo|
 
+NGOSTAM
+|Pessoa|
+|-|
+|Bia|
+|Adriana|
+
+RESULTADO
+|Pessoa|
+|-|
+|Carlos|
+|Alfredo|
 
 ## Artefatos
 
