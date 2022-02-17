@@ -67,7 +67,7 @@ Observe que existe o atributo **Sexo** em FUNCIONARIO e em DEPENDENTE, então h�
 Retornando aos 'significados' do **Valor Nulo**:
 - **Valor desconhecido.** A data de nascimento de uma pessoa não é conhecida, por isso é representada por NULL no banco de dados.
 - **Valor indisponível.** Uma pessoa tem um telefone residencial, mas não deseja que ele seja conhecido, portanto, ele é tornado indisponível e representado como NULL no banco de dados.
-- **Atributo não aplicável.** O atributo **Data de Pagamento** seria NULL para uma fatura que ainda não foi paga.
+- **Valor não aplicável.** O atributo **Data de Pagamento** seria NULL para uma fatura que ainda não foi paga.
 
 ### Exemplo 09: IS NULL e IS NOT NULL
 #### Qual o primeiro e último nomes dos funcionários que POSSUEM supervisor direto?
