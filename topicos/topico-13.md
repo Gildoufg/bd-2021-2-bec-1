@@ -186,6 +186,12 @@ GOSTAM ← πPessoa(σ Cerveja_do_bar != null (AUX))<br>
 NGOSTAM ← πPessoa(σ Cerveja_do_bar = null (AUX))<br>
 RESULTADO ← GOSTAM - NGOSTAM
 
+BAR
+|Cerveja_do_bar|
+|-|
+|Skol|
+|Brahma|
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 13", para praticar operações da *álgebra relacional*.
