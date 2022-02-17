@@ -125,9 +125,9 @@ Retornando aos 'significados' do **Valor Nulo**:
 ### Exemplo 11:
 #### Para cada funcionário, liste o primeiro nome e o último nome e, se o funcionário tiver supervisor direto, liste também o primeiro nome e o último nome do supervisor.
 
-|SQL|
-|-|
-|SELECT FUNC.Pnome, FUNC.Unome, SUPER.Pnome, SUPER.Unome<br>FROM FUNCIONARIO AS FUNC LEFT OUTER JOIN FUNCIONARIO AS SUPER<br>&nbsp;&nbsp;&nbsp;&nbsp;ON FUNC.Cpf_supervisor = SUPER.Cpf|
+|Álgebra Relacional|SQL|
+|-|-|
+|π FUNC.Pnome, FUNC.Unome, SUPER.Pnome, SUPER.Unome<br>&nbsp;&nbsp;&nbsp;&nbsp;(ρ FUNC (FUNCIONARIO) ⟕ FUNC.Cpf_supervisor = SUPER.Cp ρ SUPER (FUNCIONARIO))|SELECT FUNC.Pnome, FUNC.Unome, SUPER.Pnome, SUPER.Unome<br>FROM FUNCIONARIO AS FUNC LEFT OUTER JOIN FUNCIONARIO AS SUPER<br>&nbsp;&nbsp;&nbsp;&nbsp;ON FUNC.Cpf_supervisor = SUPER.Cpf|
 
 ## Atividade (data limite: **20/02/2022 23h59min59s**)
 
