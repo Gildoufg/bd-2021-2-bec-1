@@ -198,7 +198,7 @@ AUX
 |Carlos|Skol|Skol|
 |Carlos|Brahma|Brahma|
 |Bia|Brahma|Brahma|
-|~~Bia~~|~~Cerpa~~|~~NULL~~|
+|Bia|Cerpa|NULL|
 |Bia|Skol|Skol|
 |Alfredo|Skol|Skol|
 |Adriana|Devassa|NULL|
