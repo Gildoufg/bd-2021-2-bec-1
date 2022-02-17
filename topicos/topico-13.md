@@ -203,6 +203,14 @@ AUX
 |Alfredo|Skol|Skol|
 |Adriana|Devassa|NULL|
 
+GOSTAM
+|Pessoa|
+|-|
+|Carlos|
+|Bia|
+|Alfredo|
+
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 13", para praticar operações da *álgebra relacional*.
