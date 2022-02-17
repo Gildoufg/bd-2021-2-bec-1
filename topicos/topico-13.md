@@ -141,7 +141,7 @@ GOSTA
 |Alfredo|Skol|2,4|
 |Adriana|Devassa|3|
 
-**Abaixo está uma solução à Questão 03?**
+**Abaixo está uma solução à Questão 03? NÃO**
 - BAR ← σ Bar = pipoca (VENDE) [**corrigir ausência de aspas em literais do tipo _string_**]<br>
 CONT(Pessoa, Qtde) ← Pessoa ℑ CONTA Cerveja (GOSTA ⨝ Cerveja = Cerveja BAR) [**desambiguar atributos**]<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Preferir: (GOSTA ⨝ GOSTA.Cerveja = BAR.Cerveja BAR)_<br>
@@ -163,7 +163,7 @@ CONT
 
 Então ... RESULTADO é um conjunto vazio.
 
-**Abaixo está uma solução à Questão 04?**
+**Abaixo está uma solução à Questão 04? NÃO**
 - CERV_PIPOCA ← π cerveja (σ bar = "Pipoca" (VENDE))<br>
 RESULT ← π pessoa (GOSTA ÷ CERV_PIPOCA)
 
@@ -179,7 +179,7 @@ CERV_PIPOCA
 |Carlos|
 |Bia|
 
-**Abaixo está uma solução à Questão 04?**
+**Abaixo está uma solução à Questão 04? SIM**
 - BAR(Cerveja_do_bar) ← π Cerveja (σ Bar = pipoca (VENDE))<br>
 AUX ← π Pessoa, Cerveja, Cerveja_do_bar (GOSTA ⟕ Cerveja = Cerveja_do_bar BAR)<br>
 GOSTAM ← πPessoa(σ Cerveja_do_bar != null (AUX))<br>
