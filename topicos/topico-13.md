@@ -192,6 +192,17 @@ BAR
 |Skol|
 |Brahma|
 
+AUX
+|Pessoa|Cerveja|Cerveja_do_bar|
+|-|-|-|
+|Carlos|Skol|Skol|
+|Carlos|Brahma|Brahma|
+|Bia|Brahma|Brahma|
+|~~Bia~~|~~Cerpa~~|~~NULL~~|
+|Bia|Skol|Skol|
+|Alfredo|Skol|Skol|
+|Adriana|Devassa|NULL|
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 13", para praticar operações da *álgebra relacional*.
