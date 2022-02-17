@@ -89,7 +89,7 @@ Experimente as seguintes alternativas para o comando acima:<br>
 ■ ORDER BY 1, 3, 2<br>
 ■ ORDER BY 1 DESC, 3 DESC, 2 DESC
 
-## Atividade (data limite: **20/02/2022 23h59min59s**)
+## Atividade (data limite: **27/02/2022 23h59min59s**)
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 17", para responder: 
 
