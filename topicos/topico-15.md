@@ -148,6 +148,12 @@ Para cada dependente, apresente o nome do dependente e o primeiro e último nome
 - as duas últimas letras do nome do dependente são as mesmas do seu primeiro nome (se refere a você, que é discente da disciplina), ou
 - o tamanho do nome do dependente é o mesmo que o tamanho do seu primeiro nome (se refere a você, que é discente da disciplina) - obs.: use a função **CHAR_LENGTH(att)** para calcular o tamanho da cadeia (valor) para o atributo _att_.
 
+RESPOSTA: Se o seu primeiro nome for 'PEDRO'<br>
+SELECT Nome_dependente, Pnome, Unome<br>
+FROM FUNCIONARIO JOIN DEPENDENTE<br>
+ON Fcpf = Cpf<br>
+WHERE Nome_dependente LIKE "PE%" OR Nome_dependente LIKE "%RO" OR CHAR_LENGTH(Nome_dependente) = CHAR_LENGTH('PEDRO')
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 15" para, após entender e usar as estruturas básicas de consultas em SQL, resolver uma consulta ao **BD Empresa**.
