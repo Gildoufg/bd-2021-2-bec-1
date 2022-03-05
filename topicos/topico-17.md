@@ -102,6 +102,10 @@ SELECT Salario FROM FUNCIONARIO WHERE Salario >= <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( SELECT MIN(Salario) FROM FUNCIONARIO ) ) ) <br>
 Se a relação FUNCIONARIO possui 6 (seis) valores distintos de salário, então '_Salário 1_' é o menor salário e '_Salário 6_' é o maior salário. Some as sentenças verdadeiras:<br>(01) **Salário 1** está no resultado da consulta.<br>(02) **Salário 2** está no resultado da consulta.<br>(04) **Salário 3** está no resultado da consulta.<br>(08) **Salário 4** está no resultado da consulta.<br>(16) **Salário 5** está no resultado da consulta.<br>(32) **Salário 6** está no resultado da consulta.
 
+**Respostas:**
+1. 55500
+1. 63
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 17", para entender e usar Funções Agregadas, Agrupamento de dados e Ordenação de Dados em consultas da SQL.
