@@ -150,6 +150,14 @@ A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e 
    - Se o funcionário não possui qualquer dependente:
      - _apresente o primeiro e o último nomes do funcionário, bem como o valor NULL (referente ao nome do dependente)._
 
+1. (a) um, um e um.
+2. Se o seu primeiro nome for 'Pedro':<br>
+SELECT Pnome, Unome, Nome_dependente<br>
+FROM FUNCIONARIO LEFT OUTER JOIN DEPENDENTE<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ON Cpf = Fcpf<br>
+WHERE (Pnome LIKE '%P%' AND Nome_dependente LIKE '%P%' AND Nome_dependente IS NOT NULL)<br>
+OR    (Nome_dependente IS NULL)<br>
+   
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 16", para entender e usar Junção e Valores Nulos em consultas da SQL.
