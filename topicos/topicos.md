@@ -1,3 +1,4 @@
+[Tópico T20](./topico-20.md) - Modelo Entidade Relacionamento (MER) - Primeiros passos e _Checklist_<br>
 [Tópico T19](./topico-19.md) - SQL - DML (Data Manipulation Language): Subconsulta (parte 2)<br>
 [Tópico T18a](./topico-18a.md) - SQL - DML (Data Manipulation Language): Subconsulta (parte 1)<br>
 [Tópico T18](./topico-18.md) - SQL - DML (Data Manipulation Language): União, Interseção, Diferença, Subconsulta (primeiros passos)<br>
