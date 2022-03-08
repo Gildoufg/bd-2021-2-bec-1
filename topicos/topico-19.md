@@ -55,7 +55,7 @@ As cláusulas ANY e ALL são usadas conjuntamente com subconsultas com os seguin
 
 |Classificação|SQL|
 |-|-|
-|Subconsulta correlata|SELECT Pnome, Unome<br>FROM FUNCIONARIO<br>WHERE (<br>&nbsp;&nbsp;&nbsp;&nbsp;**SELECT COUNT(\*)**<br>&nbsp;&nbsp;&nbsp;&nbsp;**FROM TRABALHA_EM**<br>&nbsp;&nbsp;&nbsp;&nbsp;**WHERE FUNCIONARIO.Cpf = TRABALHA_EM.Fcpf** )<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IN (1, 4)|
+|Subconsulta correlata|SELECT Pnome, Unome, Salario<br>FROM FUNCIONARIO<br>WHERE (<br>&nbsp;&nbsp;&nbsp;&nbsp;**SELECT COUNT(\*)**<br>&nbsp;&nbsp;&nbsp;&nbsp;**FROM TRABALHA_EM**<br>&nbsp;&nbsp;&nbsp;&nbsp;**WHERE FUNCIONARIO.Cpf = TRABALHA_EM.Fcpf** )<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IN (1, 4)|
 
 ### Exemplo 05: Operação UNIÃO
 #### Qual o Cpf, nome e salário dos funcionários que são supervisores "ou" possuem dependentes?
