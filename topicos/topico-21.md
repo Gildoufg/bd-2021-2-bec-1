@@ -117,9 +117,9 @@ Por que as demandas informacionais atendidas por G<sup>&#8727;</sup> não podem 
 
 A resposta à **Questão 02** está atrelada ao significado de cada elemento dos subgrafos, especificamente as arestas TRABALHA_PARA e GERENCIA.
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **20/03/2022 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bxx, com o título "Tópico 21", para responder:  
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 21", para responder:  
 
 Seja o esquema conceitual do BD Empresa, que está representado por meio do DER apresentado acima. Avalie se as demandas informacionais abaixo podem ser atendidas pelo esquema conceitual.
 
@@ -154,7 +154,7 @@ Responda, necessariamente, segundo o padrão (apenas um exemplo):
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bxx, cujo título é "Tópico 21", para indicar suas reflexões iniciais sobre *demandas informacionais atendidas a partir de um DER*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 21", para indicar suas reflexões iniciais sobre *demandas informacionais atendidas a partir de um DER*.
 
 ### Bibliografia
 
