@@ -79,6 +79,20 @@ Importante:<br>
 ■ usar pelo menos uma das operações UNIÃO, INTERSEÇÃO e DIFERENÇA, necessariamente conforme a sintaxe apresentada no tópico; e<br>
 ■ usar a cláusula HAVING.
 
+**Uma resposta:**<br>
+SELECT F.Pnome, F.Unome, S.Pnome, S.Unome<br>
+FROM FUNCIONARIO AS F JOIN FUNCIONARIO AS S ON F.Cpf_supervisor = S.Cpf<br>
+WHERE F.Pnome LIKE '%o'<br>
+AND   EXISTS ( SELECT D.Fcpf FROM DEPENDENTE AS D<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+WHERE D.Fcpf = F.Cpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+GROUP BY D.Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+HAVING COUNT(\*) > 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+UNION<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+SELECT D.Fcpf FROM DEPENDENTE AS D<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+WHERE D.Fcpf = S.Cpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+GROUP BY D.Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+HAVING COUNT(\*) > 1 )
+
 ## Artefatos
 
 1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 18", para entender e usar União, Interseção e Diferença em consultas da SQL.
