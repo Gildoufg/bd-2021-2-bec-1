@@ -79,7 +79,7 @@ Importante:<br>
 ■ usar pelo menos uma das operações UNIÃO, INTERSEÇÃO e DIFERENÇA, necessariamente conforme a sintaxe apresentada no tópico; e<br>
 ■ usar a cláusula HAVING.
 
-**Uma resposta:**<br>
+**Uma resposta, se o seu primeiro nome for 'Pedro':**<br>
 SELECT F.Pnome, F.Unome, S.Pnome, S.Unome<br>
 FROM FUNCIONARIO AS F JOIN FUNCIONARIO AS S ON F.Cpf_supervisor = S.Cpf<br>
 WHERE F.Pnome LIKE '%o'<br>
