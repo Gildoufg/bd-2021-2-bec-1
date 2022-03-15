@@ -65,7 +65,7 @@ Construa um esquema conceitual, segundo o Modelo Entidade-Relacionamento, para o
   - qual o faturamento diário da empresa?
 
 Favor estar atento às diretrizes abaixo:
-- Empregue a notação para o DER paraque foi apresentada no [Tópico 20](./topico-20.md).
+- Empregue a notação para o DER que foi apresentada no [Tópico 20](./topico-20.md).
 - Use a ferramenta que desejar, desde que a especificação do DER tenha precisamente a notação solicitada.
 - Sugestão: use a ferramenta [Dia](http://dia-installer.de/), que é uma ferramenta de desenho:
   - para especificar o DER, selecione a *Folha* **ER** (em vez da *Folha* **Banco de Dados**);
