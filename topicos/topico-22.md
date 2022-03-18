@@ -81,4 +81,4 @@ Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com 
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bex, cujo título é "Tópico 22", para indicar suas reflexões iniciais sobre *decisões de projeto no Modelo Entidade Relacionamento (MER)*.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 22", para indicar suas reflexões iniciais sobre *decisões de projeto no Modelo Entidade Relacionamento (MER)*.
