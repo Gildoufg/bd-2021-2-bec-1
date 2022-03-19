@@ -1,4 +1,4 @@
-## [Tópico T22a] - Modelo Entidade Relacionamento (MER) - Exercício
+## [Tópico T23] - Modelo Entidade Relacionamento (MER) - Exercício
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Considere que a universidade precisa de um banco de dados, no contexto de um software de controle acadêmico. Três projetistas foram convidados para o desenvolvimento do esquema conceitual de banco do dados. Como resultado, cada projetista produziu um diagrama (DER) particular, conforme ilustrado a seguir.
@@ -49,7 +49,7 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 1. A data de aniversário de cada professor.
 1. A data de aniversário de cada diretor de curso.
 
-### Exercício 02. Que diagrama(s) possui(em) as restrições abaixo:
+### Exercício 02. Que diagrama(s) possui(em) as restrições abaixo?
 
 1. Uma turma pode existir sem alunos, mas não pode existir sem professor.
 1. Toda turma possui no máximo um professor, não existindo turma sem professor.
@@ -62,4 +62,60 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 1. Não existe professor sem qualquer turma associada.
 1. Uma turma pode existir mesmo sem nenhum aluno associado.
 
-## Não há atividade para este tópico, excepcionalmente.
+## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+
+Seja um banco de dados referente a Viagens de Avião, conforme a figura abaixo.
+
+<img src="../media/fig-der-aeroporto.jpg" width="650">
+
+Considere os seguintes esclarecimentos: 
+- Um voo pode ser composto por vários trechos:
+  - Por exemplo, o voo **Goiânia-Manaus** é composto pelos trechos **Goiânia-Brasília**, **Brasília-Belém** e **Belém-Manaus**.
+- Uma instância de trecho refere-se aos dados do trecho em determinada data:
+  Por exemplo, na data 09/05/2021, a aeronave do trecho **Brasília-Belém** partiu às 14h e chegou às 16h.
+- Em uma única viagem, o passageiro poderá viajar por um trajeto que envolve vários trechos de voos distintos:
+  - O valor a ser pago na viagem refere-se à soma dos preços de cada trecho.
+  - Noutras palavras, ao viajar, o passajeiro (cliente) fará um trajeto, que é uma sequência de trechos que ele adquiriu para sua viagem.
+- Toda reserva de assentos refere-se a assentos confirmados pelos clientes para uma instância de trecho de voo:
+  - Uma reserva significa um assento ocupado em uma passagem confirmada.
+
+Para responder as questões abaixo:
+- Some as alternativas verdadeiras.
+- Acrescente ao somátório a quantidade de letras do seu primeiro nome.
+- Por exemplo, se a soma for 05 e o seu primeiro nome for 'Ana', então a resposta para a questão é 08.
+
+**Questão 01)** Que consultas PODEM ser atendidas pelo esquema conceitual?<br>
+(01) Em que dias da semana houve algum voo que não foi realizado, mesmo que previsto?<br>
+(02) Quais os voos que possuem atraso na partida de algum dos seus trechos?<br>
+(04) Quais os voos que possuem mais de meia-hora de atraso na partida de algum dos seus trechos?
+
+**Questão 02)** Que consultas NÃO PODEM ser atendidas pelo esquema conceitual?<br>
+(01) Qual voo teve designação de aeronave para alguma instância de seus trechos de voo que é distinta da aeronave prevista para o trecho?<br>
+(02) Qual aeronave foi prevista para um trecho de voo?<br>
+(04) Qual aeronave foi designada para uma instância de trecho de voo?
+
+**Questão 03)** Que consultas PODEM ser atendidas pelo esquema conceitual?<br>
+(01) Que aeroporto teve voos com partida ou chegada atrasada em dias com chuva?<br>
+(02) Que aeroporto teve voos com partida atrasada em 09/05/2019?<br>
+(04) Que aeroporto teve voos com chegada atrasada em 09/05/2019?
+
+**Questão 04)** Que consultas NÃO PODEM ser atendidas pelo esquema conceitual?<br>
+(01) Em qual companhia aérea mais passageiros voaram no último mês?<br>
+(02) Que dia da semana possui mais voos com ocupação inferior a 15% dos assentos disponíveis?<br>
+(04) Que aeronave possui mais reservas na janela para crianças?
+
+Responda conforme o padrão abaixo (apenas para exemplificar):<br>
+Questão 01) 11<br>
+Questão 02) 08<br>
+Questão 03) 09<br>
+Questão 04) 09<br>
+
+RESPOSTAS:<br>
+Questão 01) 07<br>
+Questão 02) 03<br>
+Questão 03) 06<br>
+Questão 04) 04<br>
+
+## Artefatos
+
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-xxx, cujo título é "Tópico 23", para exercitar a interpŕetação de Diagrama Entidade Relacionamento.
