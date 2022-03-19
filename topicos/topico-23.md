@@ -64,6 +64,8 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 
 ## Atividade (data limite: **28/03/2022 23h59min59s**)
 
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 23", para responder: 
+
 Seja um banco de dados referente a Viagens de Avião, conforme a figura abaixo.
 
 <img src="../media/fig-der-aeroporto.jpg" width="650">
@@ -118,4 +120,4 @@ Questão 04) 04<br>
 
 ## Artefatos
 
-1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-xxx, cujo título é "Tópico 23", para exercitar a interpŕetação de Diagrama Entidade Relacionamento.
+1. _Issue_ criada no projeto https://github.com/plinioleitao/bd-2021-2-bec, cujo título é "Tópico 23", para exercitar a interpŕetação de Diagrama Entidade Relacionamento.
