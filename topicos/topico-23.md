@@ -64,7 +64,7 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 
 ## Atividade (data limite: **28/03/2022 23h59min59s**)
 
-Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 23", para responder: 
+Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 23", para responder a atividade abaixo.
 
 Seja um banco de dados referente a Viagens de Avião, conforme a figura abaixo.
 
