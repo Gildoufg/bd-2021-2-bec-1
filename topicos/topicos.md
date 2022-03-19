@@ -1,3 +1,4 @@
+[Tópico T22a](./topico-22a.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico T22](./topico-22.md) - Modelo Entidade Relacionamento (MER) - Decisões de Projeto<br>
 [Tópico T21a](./topico-21a.md) - Modelo Entidade Relacionamento (MER) - Tipo de entidade fraca<br>
 [Tópico T21](./topico-21.md) - Modelo Entidade Relacionamento (MER) - Demanda informacional<br>
