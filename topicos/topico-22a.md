@@ -26,7 +26,7 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 (02) Quando o Diagrama 2 atende ao solicitado.<br>
 (04) Quando o Diagrama 3 atende ao solicitado.<br>
 
-### Exercício 01. Que diagrama(s) cobre(m) às seguintes demandas informacionais?
+### Exercício 01. Que diagrama(s) cobre(m) às demandas informacionais abaixo?
 
 1. Relação de professores que possuem mestrado ou doutorado
 1. Os professores que possuem turma com aulas de laboratório em um semestre.
@@ -49,7 +49,7 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 1. A data de aniversário de cada professor.
 1. A data de aniversário de cada diretor de curso.
 
-### Exercício 02. Que diagrama(s) possui(em) as seguintes restrições:
+### Exercício 02. Que diagrama(s) possui(em) as restrições abaixo:
 
 1. Uma turma pode existir sem alunos, mas não pode existir sem professor.
 1. Toda turma possui no máximo um professor, não existindo turma sem professor.
