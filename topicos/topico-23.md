@@ -62,7 +62,7 @@ Para responder as perguntas abaixo, considere o somatório das seguintes opçõe
 1. Não existe professor sem qualquer turma associada.
 1. Uma turma pode existir mesmo sem nenhum aluno associado.
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **28/03/2022 23h59min59s**)
 
 Seja um banco de dados referente a Viagens de Avião, conforme a figura abaixo.
 
