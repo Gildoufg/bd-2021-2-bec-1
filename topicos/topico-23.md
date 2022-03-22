@@ -74,7 +74,7 @@ Considere os seguintes esclarecimentos:
 - Um voo pode ser composto por vários trechos:
   - Por exemplo, o voo **Goiânia-Manaus** é composto pelos trechos **Goiânia-Brasília**, **Brasília-Belém** e **Belém-Manaus**.
 - Uma instância de trecho refere-se aos dados do trecho em determinada data:
-  Por exemplo, na data 09/05/2021, a aeronave do trecho **Brasília-Belém** partiu às 14h e chegou às 16h.
+  - Por exemplo, na data 09/05/2021, a aeronave do trecho **Brasília-Belém** partiu às 14h e chegou às 16h.
 - Em uma única viagem, o passageiro poderá viajar por um trajeto que envolve vários trechos de voos distintos:
   - O valor a ser pago na viagem refere-se à soma dos preços de cada trecho.
   - Noutras palavras, ao viajar, o passajeiro (cliente) fará um trajeto, que é uma sequência de trechos que ele adquiriu para sua viagem.
