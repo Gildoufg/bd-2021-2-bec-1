@@ -75,7 +75,7 @@ Tente desenhar um trecho de DER independente para cada exemplo apresentado, conf
 
 Criar uma _issue_ no projeto https://github.com/plinioleitao/bd-2021-2-bec, com o título "Tópico 22", para responder: 
 
-1. _Você consegue **elaborar uma interpretação** (a sua interpretação) para as **decisões de projeto** sobre o Modelo Entidade Relacionamento (MER), que foram apresentadas no presente tópico?_ Favor selecionar uma das respostas a seguir:
+1. _Você consegue **elaborar uma interpretação** (a sua interpretação) para as **decisões de projeto**, que foram apresentadas no presente tópico, quando se aplica o Modelo Entidade Relacionamento (MER) na fase de projeto conceitual?_ Favor selecionar uma das respostas a seguir:
    - "Sim, eu consigo ter a minha interpretação para as decisões de projeto, que foram apresentadas no presente tópico", ou
    - "Não, pois eu tenho dificuldade em interpretar as seguintes decisões de projeto: blá, blá, ...". Nesta resposta, você deve descrever as suas dificuldades, em vez de apenas listá-las.
 
