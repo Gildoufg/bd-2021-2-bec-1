@@ -7,7 +7,7 @@ Considere que a universidade precisa de um banco de dados, no contexto de um sof
 
 Sobre os diagramas, vale esclarecer:
 - O tipo de entidade _Disciplina_ descreve o conjunto das disciplinas a serem ofertadas aos alunos:
-  - O tipo de entidade _Turma_ denota a oferta de uma disciplina em semestre e ano específicos.
+  - O tipo de entidade _Turma_ denota a ofertas de disciplinas em semestre e ano específicos.
 - O atributo _sem_ refere-se ao semestre e ao ano em que uma turma é ofertada.
 - O atributo _se_lab_ indica se uma turma ofertada possui aulas de laboratório.
 - Os atributos _data_ingr_ e _data_egre_ referem-se à data de ingresso e de egresso do aluno na instituição, respectivamente.
