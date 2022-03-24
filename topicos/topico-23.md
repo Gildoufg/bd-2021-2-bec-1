@@ -82,7 +82,7 @@ Considere os seguintes esclarecimentos:
   - Uma reserva significa um assento ocupado em uma passagem confirmada.
 
 Para responder as questões abaixo:
-- Some as alternativas verdadeiras.
+- Some as alternativas que estão de acordo com o enunciado de cada questão.
 - Acrescente ao somátório a quantidade de letras do seu primeiro nome.
 - Por exemplo, se a soma for 05 e o seu primeiro nome for 'Ana', então a resposta para a questão é 08.
 
