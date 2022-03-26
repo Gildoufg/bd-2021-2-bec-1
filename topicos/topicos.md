@@ -1,3 +1,4 @@
+[Tópico T24](./topico-24.md) - Modelo Entidade Relacionamento (MER) - Generalização/Especialização<br>
 [Tópico T23](./topico-23.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico T22](./topico-22.md) - Modelo Entidade Relacionamento (MER) - Decisões de Projeto<br>
 [Tópico T21a](./topico-21a.md) - Modelo Entidade Relacionamento (MER) - Tipo de entidade fraca<br>
