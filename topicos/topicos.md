@@ -1,3 +1,6 @@
+[Tópico T24c](./topico-24c.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 2)<br>
+[Tópico T24b](./topico-24b.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 1)<br>
+[Tópico T24a](./topico-24a.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico T24](./topico-24.md) - Modelo Entidade Relacionamento (MER) - Generalização/Especialização<br>
 [Tópico T23](./topico-23.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico T22](./topico-22.md) - Modelo Entidade Relacionamento (MER) - Decisões de Projeto<br>
