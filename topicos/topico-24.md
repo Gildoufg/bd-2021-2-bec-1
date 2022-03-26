@@ -85,7 +85,7 @@ Pelos dois exemplos apresentados acima, as seguintes reflexões são importantes
       - sobreposta e parcial.
   - Hierarquias de generalização/especialização podem ser aninhadas. 
 
-## Atividade (data limite: **xx/xx/xxxx 23h59min59s**)
+## Atividade (data limite: **04/04/2022 23h59min59s**)
 
 Seja o diagrama a seguir [1], que possui hierarquias de generalização/especialização:
 
