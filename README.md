@@ -14,6 +14,7 @@ Os momentos síncronos ocorrerão na sala [https://meet.google.com/nxf-aobp-pwz]
 - [Tópico 24a](./topicos/topico-24a.md)
 - [Tópico 24b](./topicos/topico-24b.md)
 - [Tópico 24c](./topicos/topico-24c.md)
+- [Tópico 24d](./topicos/topico-24d.md)
 - [Todos os tópicos](./topicos/topicos.md)<br>
 - [Análise das atividades](./media/bd-2021-2-bec-resumo-analise.pdf)<br>
 
