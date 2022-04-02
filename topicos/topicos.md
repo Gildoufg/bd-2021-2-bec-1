@@ -1,3 +1,4 @@
+[Tópico T24d](./topico-24d.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 3)<br>
 [Tópico T24c](./topico-24c.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 2)<br>
 [Tópico T24b](./topico-24b.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 1)<br>
 [Tópico T24a](./topico-24a.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
