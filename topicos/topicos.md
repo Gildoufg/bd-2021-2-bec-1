@@ -1,3 +1,5 @@
+[Tópico T25b](./topico-25b.md) - Mapeamento MER para MR (parte 3)<br>
+[Tópico T25a](./topico-25a.md) - Mapeamento MER para MR (parte 2)<br>
 [Tópico T25](./topico-25.md) - Mapeamento MER para MR (parte 1)<br>
 [Tópico T24d](./topico-24d.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 3)<br>
 [Tópico T24c](./topico-24c.md) - Modelo Entidade Relacionamento (MER) - Exercício (cont. 2)<br>
