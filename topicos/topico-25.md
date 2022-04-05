@@ -101,6 +101,7 @@ Se houver um tipo de entidade fraca E2 cujo tipo de entidade propriet√°ria tamb√
 |-|
 |VOO (Numero_Voo, Companhia_aerea, Dia_da_semana)<br>VOO (Numero_Voo) IS PRIMARY KEY|
 |TRECHO_VOO (Numero_Voo, Trecho_Num)<br>TRECHO_VOO (Numero_Voo, Trecho_Num) IS PRIMARY KEY<br>TRECHO_VOO (Numero_Voo) REFERENCES VOO (Numero_voo)|
+|INSTANCIA_TRECHO (Numero_Voo, Trecho_Num, Data)<br>INSTANCIA_TRECHO (Numero_Voo, Trecho_Num, Data) IS PRIMARY KEY<br>INSTANCIA_TRECHO (Numero_Voo, Trecho_num) REFERENCES TRECHO_VOO (Numero_voo, Trecho_num)|
 
 ## Atividade (data limite: **11/04/2022 23h59min59s**)
 
