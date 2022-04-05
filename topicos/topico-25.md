@@ -132,7 +132,7 @@ Nesse sentdo, o banco de dados registrará:
 Observações importantes:<br>
 &#9786; O ponto de partida é o DER resultante das consultas em **Reflexões 06** no [Tópico 24d](../topicos/topico-24d.md).<br>
 &#9786; Não remova qualquer elemento do DER em **Reflexões 06**, apenas acrescente novos elementos.<br>
-&#9786; Faça marcações coloridas (bolas vermelhas) em todos os elementos que você acrescentou.Obs.: exclua as bolinhas verdes<br>
+&#9786; Faça marcações coloridas (bolas vermelhas) em todos os elementos que você acrescentou. _Obs.: exclua as bolinhas verdes._<br>
 &#9786; Somente os elementos que você acrescentou devem ter as marcações coloridas.<br>
 &#9786; É necessário 'desenhar' o DER completo (não apenas as partes acrescentadas).
 
