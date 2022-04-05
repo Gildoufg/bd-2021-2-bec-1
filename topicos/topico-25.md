@@ -97,6 +97,11 @@ Se houver um tipo de entidade fraca E2 cujo tipo de entidade proprietária tamb�
 |EMPRESA (CodigoG, CodigoE, Nome)<br>EMPRESA (CodigoG, CodigoE) IS PRIMARY KEY<br>EMPRESA (CodigoG) REFERENCES GRUPO (CodigoG)|
 |LOJA (CodigoG, CodigoE, CodigoL, Nome)<br>LOJA (CodigoG, CodigoE, CodigoL) IS PRIMARY KEY<br>~~LOJA (CodigoG) REFERENCES GRUPO (CodigoG)~~<br>LOJA (CodigoG, CodigoE) REFERENCES EMPRESA (CodigoG, CodigoE)|
 
+|Esquema de relação (BD Viagens Aéreas)|
+|-|
+|VOO (Numero_Voo, Companhia_aerea, Dia_da_semana)<br>VOO (Numero_Voo) IS PRIMARY KEY|
+|TRECHO_VOO (Numero_Voo, Trecho_Num)<br>TRECHO_VOO (Numero_Voo, Trecho_Num) IS PRIMARY KEY<br>TRECHO_VOO (Numero_Voo) REFERENCES VOO (Numero_voo)|
+
 ## Atividade (data limite: **11/04/2022 23h59min59s**)
 
 Crie o diretório **topico-25** no seu repositório https://github.com/nomealuno/bd-2021-2-bxx, onde **nomealuno** é o nome da conta do aluno no Github. Este é o repositório que você criou no início da disciplina.
