@@ -95,7 +95,7 @@ Se houver um tipo de entidade fraca E2 cujo tipo de entidade propriet√°ria tamb√
 |-|
 |GRUPO (CodigoG, Nome)<br>GRUPO (CodigoG) IS PRIMARY KEY|
 |EMPRESA (CodigoG, CodigoE, Nome)<br>EMPRESA (CodigoG, CodigoE) IS PRIMARY KEY<br>EMPRESA (CodigoG) REFERENCES GRUPO (CodigoG)|
-|LOJA (CodigoG, CodigoE, CodigoL, Nome)<br>LOJA (CodigoG, CodigoE, CodigoL) IS PRIMARY KEY<br>LOJA (CodigoG, CodigoE) REFERENCES EMPRESA (CodigoG, CodigoE)<br>| ~~LOJA (CodigoG) REFERENCES GRUPO (CodigoG)~~|
+|LOJA (CodigoG, CodigoE, CodigoL, Nome)<br>LOJA (CodigoG, CodigoE, CodigoL) IS PRIMARY KEY<br>LOJA (CodigoG, CodigoE) REFERENCES EMPRESA (CodigoG, CodigoE)<br>~~LOJA (CodigoG) REFERENCES GRUPO (CodigoG)~~|
 
 ## Atividade (data limite: **11/04/2022 23h59min59s**)
 
