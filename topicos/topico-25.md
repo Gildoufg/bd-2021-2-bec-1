@@ -99,9 +99,9 @@ Se houver um tipo de entidade fraca E2 cujo tipo de entidade proprietária tamb�
 
 |Esquema de relação (BD Viagens Aéreas)|
 |-|
-|VOO (Voo_Num, Companhia_aerea, Dia_da_semana)<br>VOO (Voo_Num) IS PRIMARY KEY|
-|TRECHO_VOO (Voo_Num, Trecho_Num)<br>TRECHO_VOO (Voo_Num, Trecho_Num) IS PRIMARY KEY<br>TRECHO_VOO (Voo_Num) REFERENCES VOO (Voo_Num)|
-|INSTANCIA_TRECHO (Voo_Num, Trecho_Num, Data)<br>INSTANCIA_TRECHO (Voo_Num, Trecho_Num, Data) IS PRIMARY KEY<br>~~INSTANCIA_TRECHO (Voo_Num) REFERENCES VOO (Voo_Num)~~<br>INSTANCIA_TRECHO (Voo_Num, Trecho_num) REFERENCES TRECHO_VOO (Voo_Num, Trecho_num)|
+|VOO (Voo_num, Companhia_aerea, Dia_da_semana)<br>VOO (Voo_num) IS PRIMARY KEY|
+|TRECHO_VOO (Voo_num, Trecho_num)<br>TRECHO_VOO (Voo_num, Trecho_num) IS PRIMARY KEY<br>TRECHO_VOO (Voo_num) REFERENCES VOO (Voo_num)|
+|INSTANCIA_TRECHO (Voo_num, Trecho_num, Data)<br>INSTANCIA_TRECHO (Voo_num, Trecho_num, Data) IS PRIMARY KEY<br>~~INSTANCIA_TRECHO (Voo_num) REFERENCES VOO (Voo_num)~~<br>INSTANCIA_TRECHO (Voo_num, Trecho_num) REFERENCES TRECHO_VOO (Voo_num, Trecho_num)|
 
 ## Atividade (data limite: **11/04/2022 23h59min59s**)
 
